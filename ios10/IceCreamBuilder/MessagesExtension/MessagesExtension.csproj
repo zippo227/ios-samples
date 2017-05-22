@@ -87,24 +87,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="FabricSdk">
-      <HintPath>..\packages\Fabric.1.4\lib\Xamarin.iOS10\FabricSdk.dll</HintPath>
-    </Reference>
-    <Reference Include="FabricSdk.Platform">
-      <HintPath>..\packages\Fabric.1.4\lib\Xamarin.iOS10\FabricSdk.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="AnswersKit">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\AnswersKit.dll</HintPath>
-    </Reference>
-    <Reference Include="AnswersKit.Platform">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\AnswersKit.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="CrashlyticsKit">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\CrashlyticsKit.dll</HintPath>
-    </Reference>
-    <Reference Include="CrashlyticsKit.Platform">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\CrashlyticsKit.Platform.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

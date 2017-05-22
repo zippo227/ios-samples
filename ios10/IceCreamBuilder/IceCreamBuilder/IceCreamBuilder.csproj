@@ -84,24 +84,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="FabricSdk">
-      <HintPath>..\packages\Fabric.1.4\lib\Xamarin.iOS10\FabricSdk.dll</HintPath>
-    </Reference>
-    <Reference Include="FabricSdk.Platform">
-      <HintPath>..\packages\Fabric.1.4\lib\Xamarin.iOS10\FabricSdk.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="AnswersKit">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\AnswersKit.dll</HintPath>
-    </Reference>
-    <Reference Include="AnswersKit.Platform">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\AnswersKit.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="CrashlyticsKit">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\CrashlyticsKit.dll</HintPath>
-    </Reference>
-    <Reference Include="CrashlyticsKit.Platform">
-      <HintPath>..\packages\Crashlytics.1.4\lib\Xamarin.iOS10\CrashlyticsKit.Platform.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
@@ -124,7 +106,6 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />

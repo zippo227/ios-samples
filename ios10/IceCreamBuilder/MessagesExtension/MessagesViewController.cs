@@ -3,13 +3,13 @@ using System;
 using Messages;
 using Foundation;
 using UIKit;
-using CrashlyticsKit;
+//using CrashlyticsKit;
 
 namespace MessagesExtension {
 	public partial class MessagesViewController : MSMessagesAppViewController, IIceCreamsViewControllerDelegate, IBuildIceCreamViewControllerDelegate {
 		public MessagesViewController (IntPtr handle) : base (handle)
 		{
-            Crashlytics.Instance.Log("Will trigger 'can't lipo directories'");
+            //Crashlytics.Instance.Log("Will trigger 'can't lipo directories'");
 		}
 
 		public override void WillBecomeActive (MSConversation conversation)
