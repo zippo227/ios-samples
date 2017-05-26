@@ -1,5 +1,5 @@
 ﻿using System;
-
+using CrashlyticsKit;
 using UIKit;
 
 namespace MessageCodeSharing
@@ -10,6 +10,7 @@ namespace MessageCodeSharing
         {
             // Note: this .ctor should not contain any initialization logic.
 
+            Crashlytics.Instance.Initialize();
             Firebase.Analytics.Loader.ForceLoad();
         }
 

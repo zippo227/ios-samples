@@ -1,5 +1,5 @@
 ﻿using System;
-
+using CrashlyticsKit;
 using Messages;
 
 namespace Extension
@@ -8,9 +8,10 @@ namespace Extension
     {
         protected MessagesViewController(IntPtr handle) : base(handle)
         {
-            // Note: this .ctor should not contain any initialization logic.
+			// Note: this .ctor should not contain any initialization logic.
 
-            Firebase.Analytics.Loader.ForceLoad();
+			Crashlytics.Instance.Initialize();
+			Firebase.Analytics.Loader.ForceLoad();
         }
 
         public override void DidReceiveMemoryWarning()
