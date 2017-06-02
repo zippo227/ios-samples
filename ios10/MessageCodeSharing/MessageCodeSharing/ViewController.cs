@@ -12,6 +12,7 @@ namespace MessageCodeSharing
 
             Crashlytics.Instance.Initialize();
             Firebase.Analytics.Loader.ForceLoad();
+            Couchbase.Lite.Storage.SystemSQLite.Plugin.Register();
         }
 
         public override void ViewDidLoad()
